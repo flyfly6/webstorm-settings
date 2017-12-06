@@ -1,0 +1,31 @@
+<templateSet group="AngularJS ">
+  <template name="contr" value="App.controller('$NAME$', ['$ARG1$', function ($ARG1$) {&#10;    $END$&#10;}]);" description="controller for AngularJS" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fact" value="App.factory('$NAME$', ['$VAR1$', function($VAR1$) {&#10;    &quot;use strict&quot;;&#10;    $END$&#10;}]);" description="factory for AngularJs" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nginject" value="/* @ngInject */$END$" description="add comment for nginject" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+    </context>
+  </template>
+  <template name="ngcomp" value="export const $name$ = {&#10;  templateUrl: require('$template$'),&#10;  controller: $controller$,&#10;  bindings: {$END$},&#10;};" description="define an angular component object" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="template" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="controller" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
