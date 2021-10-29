@@ -1,0 +1,24 @@
+<scheme name="custom" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2016-11-28T17:07:31</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2016.3.1.0.0</property>
+    <property name="modified">2017-05-19T18:58:43</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="36ff36" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="1d9b1d" />
+      </value>
+    </option>
+    <option name="JS.DOT">
+      <value />
+    </option>
+  </attributes>
+</scheme>
