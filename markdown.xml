@@ -1,5 +1,7 @@
 <application>
   <component name="MarkdownApplicationSettings">
-    <MarkdownCssSettings StylesheetUri="https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css" />
+    <MarkdownCssSettings StylesheetUri="https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css">
+      <option name="fontFamily" value="JetBrains Mono" />
+    </MarkdownCssSettings>
   </component>
 </application>
