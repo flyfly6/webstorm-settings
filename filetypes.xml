@@ -15,7 +15,7 @@
       <mapping ext="2575497132" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <removed_mapping pattern=".editorconfig" approved="true" type="EditorConfig" />
-      <removed_mapping pattern=".env" type=".env file" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <mapping ext="bak" type="Images" />
       <mapping ext="lianyao" type="Images" />
     </extensionMap>
