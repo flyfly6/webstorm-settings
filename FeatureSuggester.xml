@@ -1,8 +1,23 @@
 <application>
   <component name="FeatureSuggesterSettings">
+    <option name="suggesters">
+      <map>
+        <entry key="Comment with line comment" value="true" />
+        <entry key="Completion" value="true" />
+        <entry key="Completion with replace" value="true" />
+        <entry key="Edit breakpoint" value="true" />
+        <entry key="File structure" value="false" />
+        <entry key="Introduce variable" value="true" />
+        <entry key="Mute breakpoints" value="true" />
+        <entry key="Paste from history" value="true" />
+        <entry key="Run to cursor" value="true" />
+        <entry key="Surround with" value="true" />
+        <entry key="Unwrap" value="true" />
+      </map>
+    </option>
     <option name="suggestionLastShownTime">
       <map>
-        <entry key="File structure" value="1645672098451" />
+        <entry key="File structure" value="1646013277024" />
         <entry key="Paste from history" value="1645089002906" />
       </map>
     </option>
